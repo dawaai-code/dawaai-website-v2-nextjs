@@ -6,11 +6,11 @@ import partner from "./images/partnership.png";
 
 const SignIn = () => {
     return (
-        <div className={styles.container}>
-                <Image src={dawalogo} alt="Cover" />
+        <div style={{ backgroundColor: "#1c1c4a", opacity: "0.9", height: "auto", backgroundSize:"contain" }} className={styles.container}>
+            <Image src={dawalogo} alt="Cover" />
             <div className={styles.partner}>
                 <div className={styles.cover}>
-                    <Image src={partner} width={500} height={170} alt='Img'/>
+                    <Image src={partner} width={500} height={170} alt='Img' />
                     <p> Next Gen B2B Saas platform for health care <br /> professionals created by IITians & IIMs</p>
                 </div>
                 <div className={styles.right}>

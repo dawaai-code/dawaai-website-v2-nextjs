@@ -55,7 +55,7 @@ const Contact = () => {
                         <input type="text"  />
                     </div>
                     <div  className={styles.subject} >
-                        <p>Massage</p>
+                        <p>Message</p>
                         <textarea  cols="50" rows="10"></textarea>
                     </div>
                     <button className={styles.send}>Send Message</button>

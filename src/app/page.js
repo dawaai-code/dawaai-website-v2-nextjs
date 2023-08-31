@@ -6,8 +6,7 @@ import Partner from "./components/partner/Partner";
 import Incabution from "./components/Incabution/Incabution";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/Footer/Footer";
-// import Login from "./signIn/Login";
-// import SignIn from "./desksign/SignIn";
+
 
 export default function Home() {
   return (
@@ -20,8 +19,7 @@ export default function Home() {
       <Incabution />
       <Contact />
       <Footer />
-      {/* <Login />
-      <SignIn /> */}
+     
     </div>
   )
 }

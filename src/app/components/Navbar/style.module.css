@@ -77,4 +77,19 @@
         margin-left: 40%;
         margin-top: 5%;
     }
+    .hover{
+        width: 40vw;
+        z-index: 999;
+        position: absolute;
+        top: 13%;
+        right: -14%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        
+    }
+    .hover li{
+        padding: 5px;
+        margin-left: 5%;
+    }
 }

@@ -25,36 +25,36 @@ const Offering = () => {
             <div className={styles.card}>
 
                 <div className={styles.cards}>
-                    <Image src={laptop} />
-                    <h4>Web Application</h4>
+                    <Image  style={{height:"80%", objectFit:"contain"}} src={laptop} />
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"3vh"}}>Web Application</p>
                 </div>
                 <div className={styles.cards}>
-                    <Image src={mobile} />
-                    <h4>Mobile Applications</h4>
+                    <Image  style={{height:"80%", objectFit:"contain"}} src={mobile} />
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"3vh"}}>Mobile Applications</p>
                 </div>
             </div>
             <Image className={styles.tree} src={tree}  />
 
             <div className={styles.module}>
                 <div className={styles.modulecard}>
-                    <Image src={saleserp} />
-                    <p>Sales Module</p>
+                    <Image style={{height:"70%", objectFit:"contain"}} src={saleserp} />
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"2vh", padding:"2%"}}>Sales Module</p>
                 </div>
                 <div className={styles.modulecard}>
-                    <Image src={sales} />
-                    <p>Sales return Module</p>
+                    <Image style={{height:"70%", objectFit:"contain"}} src={sales} />
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"2vh"}}> Sales return Module</p>
                 </div>
                 <div className={styles.modulecard}>
-                    <Image src={basket} />
-                    <p>Procurement Module</p>
+                    <Image style={{height:"70%", objectFit:"contain"}} src={basket} />
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"2vh"}}>Procurement Module</p>
                 </div>
                 <div className={styles.modulecard}>
-                    <Image src={billing} />
-                    <p>Billing Module</p>
+                    <Image style={{height:"70%", objectFit:"contain"}} src={billing} />
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"2vh"}}>Billing Module</p>
                 </div>
                 <div className={styles.modulecard}>
-                    <Image src={inventary} />
-                    <p>Inventary Module</p>
+                    <Image style={{height:"70%", objectFit:"contain"}} src={inventary} />
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"2vh"}}>Inventary Module</p>
                 </div>
             </div>
         </div>

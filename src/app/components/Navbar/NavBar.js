@@ -26,17 +26,20 @@ const NavBar = () => {
 
         <div className={styles.menu}>
 
-          <button className="menu-toggle-button" onClick={toggleMenu}>
+          <button style={{position:"relative"}} onClick={() =>{toggleMenu()}}>
             <Image src={menu} />
           </button>
-          <ul className={`menu-list ${showMenu ? 'show' : ''}`}>
-            <li><a href='/'>Home</a></li>
-            <li><a href='/'>About Us</a></li>
-            <li><a href='/'>Offering</a></li>
-            <li><a href='/'>Contact Us</a></li>
-            <li>  <button>Join Us</button> </li>
-            <li>  <button>Sign In</button>      </li>
-          </ul>
+          <div className={styles.hover}>
+            <ul style={{listStyle:"none", display: showMenu ? 'block' : "none" }}>
+              <li><a href='/'>Home</a></li>
+              <li><a href='/'>About Us</a></li>
+              <li><a href='/'>Offering</a></li>
+              <li><a href='/'>Contact Us</a></li>
+              <li>  <button>Join Us</button> </li>
+              <li>  <button>Sign In</button>  </li>
+            </ul>
+          </div>
+
         </div>
 
         <div>

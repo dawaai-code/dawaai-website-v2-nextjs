@@ -2,18 +2,18 @@ import React from 'react';
 import styles from "./style.module.css";
 import Image from 'next/image';
 import dawalogo from "./images/dawaa.png";
-import partner from "./images/partnership.png";
+
 
 const Login = () => {
 
         
 
     return (
-        <div className={styles.container}>
+        <div style={{ backgroundColor: "rgb(9 9 28)", opacity: "0.9", backgroundSize:"cover" }}  className={styles.container}>
                 <Image src={dawalogo} alt="Cover" />
             <div className={styles.partner}>
-                <div className={styles.cover}>        
-                    <Image src={partner} width={500} height={170} alt='Img'/>
+                <div style={{ backgroundColor: "rgb(63 123 97)", opacity: "0.9", width:"500", height: "500" }} className={styles.cover}>        
+                <h6>Our Partnership, <br/> Your Benefits</h6>
                     <p> Next Gen B2B Saas platform for health care <br /> professionals created by IITians & IIMs</p>
                 </div>
               

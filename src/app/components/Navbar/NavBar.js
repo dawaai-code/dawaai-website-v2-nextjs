@@ -3,7 +3,6 @@
 import React from 'react';
 import Image from 'next/image';
 import dawalogo from "../../../../public/images/dawaa.png";
-import partnership from "../../../../public/images/partnership.png";
 import menu from "../../../../public/images/menu.png";
 import styles from "./style.module.css";
 import { useState } from 'react';
@@ -27,7 +26,7 @@ const NavBar = () => {
         <div className={styles.menu}>
 
           <button style={{position:"relative"}} onClick={() =>{toggleMenu()}}>
-            <Image src={menu} />
+            <Image width="32" height="30" src={menu} />
           </button>
           <div className={styles.hover}>
             <ul style={{listStyle:"none", display: showMenu ? 'block' : "none" }}>
@@ -44,16 +43,16 @@ const NavBar = () => {
 
         <div>
           <ul className={styles.unorderedlist}>
-            <li className={styles.listitem}><a href='/'>Home</a></li>
-            <li className={styles.listitem}><a href='/'>About Us</a></li>
-            <li className={styles.listitem}><a href='/'>Offering</a></li>
-            <li className={styles.listitem}><a href='/'>Contact Us</a></li>
-            <li className={styles.listitem}>  <button>Join Us</button> </li>
+            <li className={styles.listitem}><a href='#'>Home</a></li>
+            <li className={styles.listitem}><a href='#'>About Us</a></li>
+            <li className={styles.listitem}><a href='#'>Offering</a></li>
+            <li className={styles.listitem}><a href='#'>Contact Us</a></li>
+            <li className={styles.listitem}>  <button>Log In</button> </li>
             <li className={styles.listitem}>  <button>Sign In</button>      </li>
           </ul>
         </div>
       </div>
-      <Image className={styles.partner} src={partnership} width={500} height={100} />
+      <h6>Our Partnership, <br/> Your Benefits</h6>
       <p className={styles.next}>Next Gen B2B SaaS platform for health care <br /> professionals created by IITians & IIM's</p>
       <button className={styles.join}>Join Us</button>
     </div>

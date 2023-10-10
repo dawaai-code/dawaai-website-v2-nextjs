@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./style.module.css";
 import Image from 'next/image';
 import dawalogo from "./images/dawaa.png";
-import partner from "./images/partnership.png";
+
 
 const SignIn = () => {
     return (
@@ -10,7 +10,7 @@ const SignIn = () => {
             <Image src={dawalogo} alt="Cover" />
             <div className={styles.partner}>
                 <div className={styles.cover}>
-                    <Image src={partner} width={500} height={170} alt='Img' />
+                 <h6>Our Partnership, <br/> Your Benefits</h6>
                     <p> Next Gen B2B Saas platform for health care <br /> professionals created by IITians & IIMs</p>
                 </div>
                 <div className={styles.right}>

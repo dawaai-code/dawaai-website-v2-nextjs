@@ -27,31 +27,33 @@
 }
 .cards{
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 15px;
     box-shadow: 0px 4px 18px 0px #63636354;
 }
 .cards img{
-    padding-left: 25%;
+    margin: 0 0 0 2% ;
    
 }
 .cards h2{
    font-family: 'Poppins';
-   font-weight: 600;
+   font-weight: 550;
    font-size: 30px;
    line-height: 50px;
    align-items: center;
    color: #000000;
-   padding-left: 25%;
+  padding-left: 30%;
+
 }
 .cards p{
-    padding-left: 15%;
-    padding: 10px;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
     color: #636363;
 
 }

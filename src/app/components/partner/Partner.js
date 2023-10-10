@@ -5,7 +5,7 @@ const Partner = () => {
     return (
         <div className={styles.container}>
             <div className={styles.partner}>
-                <h3>To Become Our Partner</h3>
+                <h3>Let’s partner up! </h3>
                 <button>Click Here</button>
             </div>
             

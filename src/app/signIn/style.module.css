@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 .container {
     background-color: #ffffff;
@@ -17,10 +18,15 @@
     height: 500px;
     margin-top: 2%;
     border-radius: 2%;
+    padding: 1%;
 }
-
-.cover img {
-    margin-top: 20%;
+.cover h6{
+    font-family: 'Archivo Black';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 17%;
+    
 }
 
 .cover p {
@@ -29,8 +35,6 @@
     font-size: 20px;
     line-height: 30px;
     margin: 2%;
-    margin-left: 7%;
-
 }
 
 .partner {
@@ -39,6 +43,7 @@
 }
 
 .right form {
+    background-color: rgb(63 123 97);
     margin-top: 25%;
     color: #000000;
     width: 350px;
@@ -57,10 +62,11 @@
 
 .right form input {
     width: 290px;
+    border: none;
     background-color: #ffffff;
     color: #9b9292;
     height: 30px;
-    border-radius: 1px #9b9292;
+    border-radius: 20px #9b9292;
     padding: 8px 16px 8px 16px;
     gap: 10px;
     margin-top: 5%;

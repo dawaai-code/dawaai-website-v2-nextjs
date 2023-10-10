@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from "../Dawa/style.module.css";
+import styles from "./style.module.css";
 import section_img from "../../../../public/images/shopper.png"
 
 const Dawa = () => {
@@ -10,21 +10,17 @@ const Dawa = () => {
             <p>We are dedicated team consisting of graduates from IITs</p>
             <div className={styles.shopper}>
                 <div>
-                    <Image src={section_img} width={600} height={510} />
+                    <Image src={section_img} width={630} height={490} />
                 </div>
                 <div>
                     <div className={styles.card}>
-                        <h2>Increase efficiency</h2>
-                        <p>Delivering possibilities for pharmacists and increasing efficiency in the production flows.</p>
+                        <h2 className={styles.card_1}>Increase efficiency</h2>
                     </div>
-                    <div  className={styles.card}>
-                        <h2>User Friendly</h2>
-                        <p>Its a pharmacists dashboard that offer a convenient way to manage our clients drugstores and digital presence</p>
-
+                    <div className={styles.card}>
+                        <h2  className={styles.card_2}>User friendly</h2>
                     </div>
-                    <div  className={styles.card}>
-                            <h2>Pocket Friendly</h2>        
-                            <p>We belive in the power of technology to transform your business and we commited to delivering healthcare at a price you can afford.</p>
+                    <div className={styles.card}>
+                        <h2 className={styles.card_3}>Pocket Friendly</h2>
                     </div>
                 </div>
             </div>

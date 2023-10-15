@@ -1,8 +1,8 @@
 import './globals.css'
-import { Inter } from '../../node_modules/next/font/google'
+// import { Inter } from '../../node_modules/next/font/google'
 // import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',

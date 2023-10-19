@@ -2,6 +2,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import dawalogo from "../../../../public/images/dawaa.png";
 import menu from "../../../../public/images/menu.png";
 import styles from "./style.module.css";
@@ -25,11 +26,11 @@ const NavBar = () => {
 
         <div className={styles.menu}>
 
-          <button style={{position:"relative"}} onClick={() =>{toggleMenu()}}>
-            <Image width="32" height="30" src={menu} />
+          <button style={{ position: "relative" }} onClick={() => { toggleMenu() }}>
+            <Image width="32" height="30" src={menu} alt='img' />
           </button>
           <div className={styles.hover}>
-            <ul style={{listStyle:"none", display: showMenu ? 'block' : "none" }}>
+            <ul style={{ listStyle: "none", display: showMenu ? 'block' : "none" }}>
               <li><a href='/'>Home</a></li>
               <li><a href='/'>About Us</a></li>
               <li><a href='/'>Offering</a></li>
@@ -43,18 +44,18 @@ const NavBar = () => {
 
         <div>
           <ul className={styles.unorderedlist}>
-            <li className={styles.listitem}><a href='#'>Home</a></li>
-            <li className={styles.listitem}><a href='#'>About Us</a></li>
-            <li className={styles.listitem}><a href='#'>Offering</a></li>
-            <li className={styles.listitem}><a href='#'>Contact Us</a></li>
-            <li className={styles.listitem}>  <button>Log In</button> </li>
-            <li className={styles.listitem}>  <button>Sign In</button>      </li>
+            <li className={styles.listitem}><Link href='#'>Home</Link></li>
+            <li className={styles.listitem}><Link href='#'>About Us</Link></li>
+            <li className={styles.listitem}><Link href='#'>Offering</Link></li>
+            <li className={styles.listitem}><Link href='#'>Contact Us</Link></li>
+            <li className={styles.listitem}>  <button><Link href="http://app.dawaai.co.in/"> Log In </Link> </button></li>
+            <li className={styles.listitem}> <button> <Link href="http://app.dawaai.co.in/"> Sign In</Link>  </button>    </li>
           </ul>
         </div>
       </div>
-      <h6>Our Partnership, <br/> Your Benefits</h6>
+      <h6>Our Partnership, <br /> Your Benefits</h6>
       <p className={styles.next}>Next Gen B2B SaaS platform for health care <br /> professionals created by IITians & IIM's</p>
-      <button className={styles.join}>Join Us</button>
+      <button className={styles.join}><Link href="#"> Join Us</Link></button>
     </div>
   );
 };

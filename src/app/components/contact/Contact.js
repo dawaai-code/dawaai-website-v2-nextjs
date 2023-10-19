@@ -21,20 +21,22 @@ const Contact = () => {
             <div className={styles.main}>
                 <div className={styles.contact}>
                     <div>
-                        <span>Locations</span><Image src={map} alt='img' />
+                        <Image src={map} alt='img' />  <span>Locations</span>
                         <p>
                             203/AL Rukhmini Apt., Friends Colony. Katal Road Nagpur, <br />
                             Maharashtra
                         </p>
                     </div>
                     <div>
-                        <span>Email</span> <Image src={mail} alt='img' />
+                        <Image src={mail} alt='img' />
+                        <span>Email</span>
                         <p>
                             kushal@dawaai.co.in
                         </p>
                     </div>
                     <div>
-                        <span>Call</span> <Image src={calls} alt='img' />
+                        <Image src={calls} alt='img' />
+                        <span>Call</span>
                         <p>
                             +91 7770071144
                         </p>
@@ -58,12 +60,12 @@ const Contact = () => {
                     </div>
                     <div className={styles.subject}>
                         <p>Subject</p>
-                        <input type="text" />
+                        <input  type="text" />
                     </div>
                     <div className={styles.subject}>
                         <p>Message</p>
                         {/* <textarea cols="50" rows="10"></textarea> */}
-                        <textarea cols="30" rows="5"></textarea>
+                        <textarea cols="50" rows="5"></textarea>
                     </div>
                     <div className={styles.minput}>
                         <input type="text" />

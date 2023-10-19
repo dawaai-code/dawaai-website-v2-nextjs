@@ -68,33 +68,33 @@
 
 @media(max-width:700px) {
     .partner h3 {
-        font-family: 'Poppins';
+        font-family: 'Poppins',sans-serif;
         font-weight: 800;
         font-family: 30px;
         line-height: 30px;
-        margin-top: 10%;
-
+        margin-top: 3.5rem;
+     
     }
+    
 
     .partner button {
         background-color: #344D67;
         border: none;
         color: #ffffff;
-        font-family: 'Poppins';
+        font-family: 'Poppins',sans-serif;
         font-weight: 500;
-        border: 5px;
+        border-radius: 10px;
         font-size: 20px;
         line-height: 30px;
-
-        width: 150px;
-        margin-top: 8%;
+        width: 120px;
+        margin-top: 2%;
 
     }
 }
 
 @media(min-width:700px){
     .partner h3 {
-        font-family: 'Poppins';
+        font-family: 'Poppins',sans-serif;
         font-weight: 600;
         font-size: 34px;
         line-height: 34px;
@@ -103,16 +103,16 @@
     }
 
     .partner button {
+        margin-top: 1rem;
         background-color: #344D67;
         border: none;
         color: #ffffff;
-        font-family: 'Poppins';
+        font-family: 'Poppins',sans-serif;
         font-weight: 500;
         border: 5px;
         font-size: 20px;
         line-height: 30px;
         height: 45px;
-
         width: 150px;
         margin-top: 1.5%;
         

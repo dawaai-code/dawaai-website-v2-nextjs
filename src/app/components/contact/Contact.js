@@ -23,7 +23,7 @@ const Contact = () => {
                     <div>
                         <Image src={map} alt='img' />  <span>Locations</span>
                         <p>
-                            203/AL Rukhmini Apt., Friends Colony. Katal Road Nagpur, <br />
+                            203/A1 Rukhmini Apt., Friends Colony. Katal Road Nagpur, <br />
                             Maharashtra
                         </p>
                     </div>
@@ -60,12 +60,12 @@ const Contact = () => {
                     </div>
                     <div className={styles.subject}>
                         <p>Subject</p>
-                        <input  type="text" />
+                        <input type="text" />
                     </div>
                     <div className={styles.subject}>
                         <p>Message</p>
                         {/* <textarea cols="50" rows="10"></textarea> */}
-                        <textarea cols="50" rows="5"></textarea>
+                        <textarea cols="40" rows="5"></textarea>
                     </div>
                     <div className={styles.minput}>
                         <input type="text" />

@@ -103,7 +103,7 @@ const Offering = () => {
                 </div>
                 <div className={styles.modulecard}>
                     <Image style={{height:"70%", objectFit:"contain"}} src={inventarym} />
-                    <p style={{ fontFamily: 'Poppins',fontWeight: 600 }}>Inventary  </p>
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600 }}>Inventory  </p>
                     <p style={{ fontFamily: 'Poppins',fontWeight: 600 }}>  Module</p>
                 </div>
             </div>

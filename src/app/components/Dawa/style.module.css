@@ -94,6 +94,7 @@
     font-weight: 600;
     line-height: normal;
     padding-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .container p {
@@ -169,7 +170,7 @@
 @media screen and (max-width:768px) {
 
     .container {
-        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
     .container h1 {

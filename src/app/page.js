@@ -6,6 +6,7 @@ import Partner from "./components/partner/Partner";
 import Incabution from "./components/Incabution/Incabution";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Curosel from "./components/curosel/Curosel";
 
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
       <Cards/>
       <Offering />
       <Partner />
-      <Incabution />
+      {/* <Incabution /> */}
+      <Curosel />
       <Contact />
       <Footer />
      

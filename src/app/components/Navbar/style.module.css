@@ -5,8 +5,8 @@
 
     background-image: linear-gradient(to bottom, rgba(38, 47, 73, 0.95) 0.62%, rgba(11, 19, 43, 0) 190.37%),
         url('../../../../public/images/desksignup.png');
-    height: 100vh;
     width: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -24,7 +24,7 @@
     list-style: none;
     display: flex;
     padding-left: 50px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -32,18 +32,31 @@
 }
 
 .listitem button {
-    font-family: 'Poppins',sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
     background-color: #7F82FF;
     padding: 10px;
     border-radius: 20px;
+    border: none; */
+    font-family: 'Poppins';
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #7F82FF;
+    padding: 10px;
+    border-radius: 20px;
     border: none;
+    margin-top: -6%;
 }
-.container li a{
+
+.container li a {
     cursor: pointer;
+   text-decoration: none;
+   color: white;
 }
 
 .unorderedlist {
@@ -53,20 +66,22 @@
 }
 
 .container h6 {
-    font-family: 'Archivo Black',sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     /* font-weight: 400; */
     font-weight: 900;
     font-size: 60px;
     line-height: 70px;
     margin-top: 10%;
     margin-left: 2%;
+    color: #ffffff;
 }
 
 .next {
     margin: 2%;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    color: #ffffff;
 }
 
 .join {
@@ -75,11 +90,16 @@
     font-size: 20px;
     line-height: 24px;
     color: #ffffff;
-    background-color:#7F82FF;
+    background-color: #7F82FF;
     padding: 15px;
     border-radius: 20px;
     border: none;
     margin-left: 2%;
+}
+.join a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .menu {
@@ -87,9 +107,16 @@
 }
 
 @media(max-width:700px) {
-    .container{
-        background:  linear-gradient(to bottom, rgba(52, 62, 92, 0.95) 0.62%, rgba(17, 30, 68, 0) 190.37%);
+    .container {
+        background-image:
+            url('../../../../public/images/maskcover.png');
+        ;
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        object-fit: contain;
     }
+
     .partner {
         margin-top: 25%;
     }
@@ -119,11 +146,16 @@
 
     .hover li {
         padding: 5px;
-        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .hover li a{
+        background-color: white;
+        color: black;
+        cursor: pointer;
     }
 
     .container h6 {
-        font-family: 'Archivo Black',sans-serif;
+        font-family: 'Archivo Black', sans-serif;
         font-weight: 900;
         font-size: 50px;
         line-height: 70px;

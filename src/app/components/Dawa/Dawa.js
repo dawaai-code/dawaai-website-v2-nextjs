@@ -29,3 +29,4 @@ const Dawa = () => {
     )
 }
 
+export default Dawa;

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./style.module.css";
+import Link from 'next/link';
 import Image from 'next/image';
 import facebook from "../../../../public/images/facebook.png";
 import instagram from "../../../../public/images/instagram.png";
@@ -30,7 +31,7 @@ const Footer = () => {
       </div>
       <hr/>
       <div className={styles.end}>
-        <span>&copy; Copywrite Dawa.ai All Rights Reserved</span>
+        <span>&copy; Copyright Dawa.ai All Rights Reserved</span>
         <span>Designed by Dawa.ai Web Team</span>
       </div>
     </div>
